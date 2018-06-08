@@ -1,0 +1,24 @@
+#shoutbox-main {
+    .inferno-editor {
+
+    }
+
+    .inferno-body {
+        .shoutbox-body {
+            border-left   : $nav-tabs-border-width solid $nav-tabs-border-color;
+            border-right  : $nav-tabs-border-width solid $nav-tabs-border-color;
+            border-bottom : $nav-tabs-border-width solid $nav-tabs-border-color;
+            // height        : 300px;
+
+            #shoutboxTabsContent {
+                overflow                   : auto;
+                -webkit-overflow-scrolling : touch;
+
+                .tab-pane {
+                    height  : 300px;
+                    padding : 5px 10px;
+                }
+            }
+        }
+    }
+}
